@@ -31,8 +31,15 @@ const SearchInput = () => {
          </div>
 
          <div className='movie-list'>
-                {movieData && movieData.map(movie => ( 
-                    <MovieCard /> 
+                {movieData && movieData.map(({id, original_title, poster_path, overview, release_date, vote_average}) => ( 
+                    <MovieCard 
+                        key={id}
+                        title={original_title}
+                        posterUrl={poster_path}
+                        plot={overview}
+                        releaseDate={release_date}
+                        rating={vote_average}
+                    /> 
                 ))}
             </div>
     </main>
