@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background: #9acaa1;
+    color: #2a2a2a;
 }
 
 .container {
@@ -23,15 +25,67 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 .title {
     font-size: 2rem;
-    color: #19282F;
     margin-right: 1rem;
+    color: #214326;
 }
 
 .movie-icon {
     width: 50px;
     height: 50px;
+}
+
+/* Input Section */
+
+.input-section {
+    width: 40%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form :not(:last-child) {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #19282F;
+}
+
+.search-input {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.search-btn {
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 8px 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+    background: #214326;
+    color: #9acaa1;
+    letter-spacing: 1.5px;
+}
+
+.search-btn:hover,
+.search-btn:focus {
+    background: #fff;
+    color: #2a2a2a;
+    transition: background 250ms;
 }
