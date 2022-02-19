@@ -81,6 +81,7 @@ label {
     background: #214326;
     color: #9acaa1;
     letter-spacing: 1.5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .search-btn:hover,
@@ -88,4 +89,50 @@ label {
     background: #fff;
     color: #2a2a2a;
     transition: background 250ms;
+}
+
+/* Movie Card */
+
+.movie-list {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.movie {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 1rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    border: .5px solid #214326;
+}
+
+.movie-poster {
+    margin-right: 2rem;
+}
+
+.movie-poster-image {
+    object-fit: cover;
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    color: #19282F;
+}
+
+.movie-title {
+    font-size: 1.5rem;
+}
+
+.movie-info :not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.movie-plot {
+    line-height: 1.6;
 }
