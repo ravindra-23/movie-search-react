@@ -136,3 +136,51 @@ label {
 .movie-plot {
     line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+
+    .header-container {
+        margin-bottom: 0;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+
+    .movie-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    form :not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    .input-section {
+        width: 70%;
+    }
+
+    .search-btn, .search-input {
+        width: 100%;
+    }
+
+    .movie {
+        flex-direction: column;
+    }
+
+    .movie-info {
+        text-align: center;
+    }
+
+    .movie-info :not(:last-child) {
+        margin-bottom: .8rem;
+    }
+
+    .movie-release-date, .movie-rating, .movie-plot {
+        font-size: .8rem;
+    }
+
+    .movie-poster {
+        margin: 0 auto;
+    }
+}
