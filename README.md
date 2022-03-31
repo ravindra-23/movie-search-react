@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## See it live
 
-Open [https://adoring-wright-31526c.netlify.app](https://adoring-wright-31526c.netlify.app)
+Open [https://movie-search-reactjs2308.netlify.app](https://movie-search-reactjs2308.netlify.app)
 
 ## Available Scripts
 
